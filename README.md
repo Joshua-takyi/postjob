@@ -1,8 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PostJob: Win Your Dream Job
 
-## Getting Started
+PostJob is a cutting-edge web application designed to revolutionize your job application process. Powered by advanced AI technologies and GPT, PostJob helps job seekers create compelling application materials and improve their chances of landing their dream positions.
 
-First, run the development server:
+## ✨ Features
+
+- **AI Cover Letter Generator** - Create personalized, professional cover letters tailored to specific job descriptions in seconds
+- **Resume Scanner** - Analyze your resume with OCR technology to ensure it passes through Applicant Tracking Systems (ATS)
+- **Keyword Optimization** - Identify and integrate industry-specific keywords to maximize visibility
+- **Outreach Message Writer** - Craft effective networking and follow-up messages to potential employers
+- **Resume Design Templates** - Access professionally designed resume templates optimized for modern hiring processes
+
+## 🚀 Technologies
+
+This application is built with:
+
+- [Next.js 15](https://nextjs.org/) - React framework with server components and optimized rendering
+- [React 19](https://react.dev/) - Latest JavaScript library for building user interfaces
+- [TailwindCSS 4](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library for engaging user interactions
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js (v18.0.0 or later)
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Joshua-takyi/postjob.git
+cd postjob
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +60,29 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Environment Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file in the project root and add necessary environment variables for API connections.
 
-## Learn More
+## 🚢 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application can be deployed on [Vercel](https://vercel.com/) or any other platform that supports Next.js applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
+[License details here]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<!-- Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/postjob/issues). -->
+
+---
+
+© 2025 PostJob. All rights reserved.

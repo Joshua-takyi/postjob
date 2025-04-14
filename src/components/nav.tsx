@@ -4,7 +4,6 @@ import BtnComponent from './button';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
 const navMenu = [
   {
     id: 1,
@@ -69,6 +68,8 @@ export const Nav = () => {
         // Split multiple classes and toggle them individually
         // header.classList.toggle('bg-transparent', window.scrollY > 0);
         header.classList.toggle('bg-black', window.scrollY > 0);
+        // header.classList.toggle('transition-all ', window.scrollY > 0);
+        // header.classList.toggle('linear ', window.scrollY > 0);
         // header.classList.toggle('shadow-md', window.scrollY > 0);
       }
     };
@@ -97,13 +98,16 @@ export const Nav = () => {
     <header className="md:px-[6rem] p-4 sticky  top-0 z-50 bg-black">
       <div className="flex justify-between items-center">
         <nav className="flex items-center gap-2">
+          {' '}
           <span>
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               width={30}
               height={30}
               alt="logo"
               aria-label="image logo"
+              // className="lazyload"
+              // loading="lazy"
             />
           </span>
           <h1 className="text-sm font-semibold capitalize">postjob</h1>

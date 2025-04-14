@@ -14,11 +14,10 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-const title = 'postjob - AI Resume Builder';
+const title = 'postjob | AI Resume Builder';
 const description =
   'Postjob is a free AI resume builder that helps you create a professional resume in minutes. Our AI-powered tool generates personalized resumes tailored to your skills and experience.';
 const url = 'https://postjob.vercel.app/';
-const image = 'https://postjob.vercel.app/images/og-image.png';
 const keywords =
   'AI resume builder, free resume builder, resume generator, AI-powered resume, personalized resume, professional resume, job application, career development, resume tips, resume writing, online resume builder, CV builder, job search tool';
 const author = 'Postjob Team';
@@ -61,16 +60,16 @@ export const metadata: Metadata = {
     creator: twitterHandle,
     images: [ogImageUrl],
   },
-  themeColor,
   icons: {
-    icon: '/favicon.ico',
+    icon: ['/favicon.ico'],
+    apple: '/apple-touch-icon.png',
+    shortcut: ['/favicon.ico'],
   },
 };
 
-// const sf_pro = localfont({
-//   src: '../fonts/regular.otf',
-//   variable: '--font-sf-pro',
-// });
+export const viewport = {
+  themeColor,
+};
 
 export default function RootLayout({
   children,

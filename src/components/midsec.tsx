@@ -29,7 +29,7 @@ export const Midsec = () => {
             alt="an image representing the chart"
           />
           <Image
-            src="/logo.png"
+            src="/images/logo.png"
             width={55}
             height={55}
             alt="logo"

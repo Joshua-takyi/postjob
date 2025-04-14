@@ -95,13 +95,13 @@ export const Nav = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="md:px-[6rem] p-4 sticky  top-0 z-50 bg-black">
+    <header className="md:px-[6rem] p-4 sticky  top-0 z-50 bg-black transition-all ease-in">
       <div className="flex justify-between items-center">
         <nav className="flex items-center gap-2">
           {' '}
           <span>
             <Image
-              src="/logo.png"
+              src="/images/logo.png"
               width={30}
               height={30}
               alt="logo"

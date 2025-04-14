@@ -97,13 +97,13 @@ const Footer = () => {
                     {item.href ? (
                       <Link
                         href={item.href}
-                        className="flex items-center gap-2 text-sm hover:underline"
+                        className="flex items-center gap-2 text-xs md:text-sm hover:underline"
                       >
                         {item.icon && <span className="flex items-center">{item.icon}</span>}
                         <span>{item.label}</span>
                       </Link>
                     ) : (
-                      <span className="flex items-center gap-2 text-sm">
+                      <span className="flex items-center gap-2 text-xs md:text-sm">
                         {item.icon && <span className="flex items-center">{item.icon}</span>}
                         <span>{item.label}</span>
                       </span>

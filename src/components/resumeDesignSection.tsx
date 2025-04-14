@@ -24,7 +24,7 @@ export const ResumeDesignSection = () => {
         {/* Image Section */}
         <div className="w-full flex justify-center md:justify-end">
           <Image
-            src={'/images/illustration3.png'}
+            src={'/images/Illustration3.png'}
             alt="illustration"
             width={700}
             height={700}

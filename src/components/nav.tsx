@@ -101,7 +101,7 @@ export const Nav = () => {
           {' '}
           <span>
             <Image
-              src="/images/logo.png"
+              src="/images/Logo.png"
               width={30}
               height={30}
               alt="logo"

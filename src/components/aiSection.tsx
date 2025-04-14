@@ -21,7 +21,7 @@ export const AiAndOptimization = (): JSX.Element => {
 
         <div className="w-full flex justify-center md:justify-end">
           <Image
-            src={'/images/illustration.png'}
+            src={'/images/Illustration.png'}
             alt="AI Cover Letter Generator Illustration"
             width={500}
             height={500}
@@ -34,7 +34,7 @@ export const AiAndOptimization = (): JSX.Element => {
       <div className="flex flex-col md:flex-row w-full gap-6 sm:gap-8 max-w-[70rem] mx-auto mt-10 md:mt-16 items-center">
         <div className="w-full flex justify-center md:justify-start order-2 md:order-1">
           <Image
-            src={'/images/illustration2.png'}
+            src={'/images/Illustration2.png'}
             alt="Resume Keyword Optimization Illustration"
             width={500}
             height={500}
